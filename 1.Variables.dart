@@ -32,4 +32,7 @@ void main()
     var foo = const [3, 5, 2]; // values within are not modifiable
     final bar = const [4, 12, 52]; 
     const baz = [4, 3, 1]; // equivalent to const [4, 3, 1]
+
+    // When you don't want to initialize a variable immediately, use the 'late' keyword.
+    late List<String> names; 
 }
